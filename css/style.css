@@ -1,0 +1,193 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* HEADER */
+.header-bg {
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px 0 10px 0;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav ul a {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 14px 0 14px 0;
+}
+
+/* INTRO */
+.intro-bg {
+  background-color: #1f2937;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
+}
+
+.intro-description {
+  flex: 1;
+}
+
+.intro-description h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 10px;
+}
+
+.intro-description p {
+  font-size: 18px;
+  color:  #e5e7eb;
+  margin-bottom: 15px;
+}
+
+.intro-img {
+  flex: 1;
+}
+
+.intro-img img {
+  border-radius: 12px;
+}
+
+.btn {
+  background-color: #3882f6;
+  padding: 8px 28px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 18px;
+  color: white;
+}
+
+/* WOLFS */
+.wolfs {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 40px 100px 40px;
+}
+
+.wolfs h2 {
+  font-size: 36px;
+  color:  #1f2937;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.wolfs-info {
+  display: flex;
+  gap: 40px;
+}
+
+.wolfs-info div img {
+  border-radius: 12px;
+  margin-bottom: 5px;
+}
+
+.wolfs-info div p {
+  font-size: 18px;
+  color:  #1f2937;
+}
+
+/* QUOTE */
+.quote-bg {
+  background-color: #e5e7eb;
+}
+
+.quote-bg div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 80px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 40ch;
+}
+
+.cite {
+  align-self: flex-end;
+  margin-right: 120px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* CTA */
+.cta-bg {
+padding: 100px 0 100px 0;
+}
+
+.cta {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #3882f6;
+  padding: 45px 120px;
+  border-radius: 12px;
+  color: white;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-cta{
+  border: 2px solid white;
+  background-color: #3882f6;
+  padding: 8px 28px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 18px;
+  color: white;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
