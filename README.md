@@ -1,4 +1,4 @@
-<h1>Landing Page</h1>
+<h1><a href="https://kaiopratess.github.io/landing-page/">Landing Page</a></h1>
 <h2>What this project is about?</h2>
 <p>This project is a basic landing page. Created for the Odin Project, flex box session.
 <h2>Skills</h2>
